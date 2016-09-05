@@ -35,5 +35,6 @@ module.exports.routes = {
 
   'get /signup': {
     view: 'signup'
-  }
+  },
+  'get /crm': 'CrmController.main' 
 };;
